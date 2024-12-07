@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Fruits & Veggies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">Mafimex</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Fresh From Our Fields to Your Table</h1>
+      <p>Discover the finest fruits and vegetables, delivered with care.</p>
+      <button class="cta">Browse Our Products</button>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Mafimex, we are passionate about delivering farm-fresh produce to your home.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="apple.jpg" alt="Apples">
+        <h3>Apples</h3>
+        <p>Fresh and crisp apples picked straight from the orchard.</p>
+      </div>
+      <div class="product">
+        <img src="carrot.jpg" alt="Carrots">
+        <h3>Carrots</h3>
+        <p>Sweet and crunchy carrots perfect for your meals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Mafimex | All Rights Reserved</p>
+    <p>Follow us on <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+  </footer>
+</body>
+</html>
